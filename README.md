@@ -1,0 +1,2 @@
+# cylindrical-coordinates
+Colors can be represented using cylindrical coordinates, in a model named HSV. Say you have a very long vector of HSV color tuples (unordered) defned as (h, s, v) where h is the hue in degrees [0°, 360°), s and v are saturation and value, respectively, in percentage. Your objective is to obtain all pairs of complementary colors from this vector. The complementary color of (h, s, v) is defned as (h + 180°, s, v). How would you implement a function to perform this operation in the most optimized way?
